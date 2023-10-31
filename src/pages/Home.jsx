@@ -13,6 +13,7 @@ export default function Home(){
             <button data-bs-target='#slide' data-bs-slide-to='1' ></button>
             <button data-bs-target='#slide' data-bs-slide-to='2'></button>
           </div>
+      
           <div className='carousel-inner'>
               <div className='carousel-item active text-center'>
                   <img src={'a.jpeg'} className='d-block center slide-img' style={{width:'100%',height:'450px'}}  />
@@ -62,13 +63,13 @@ export default function Home(){
               <Link className='btn btn-info' to='/Services'>SEE OUR GALLERY</Link>
              </div>
         </div>
-        {/*
+        
         <footer className='fixed-bottom footer text-white' style={{backgroundColor:'#000',opacity:'0.9'}}>
             <span><BsWhatsapp />074 947 4430</span>
             <span><Link to='https://facebook.com' className='btn text-white'><BsFacebook/>Facebook</Link></span>
             <span><Link to='https://instagram.com' className='btn text-white'><BsInstagram />Instagram</Link></span>
             <span><FaLocationDot />Dasht-e-Barchi, Kabul, Afghanistan</span>
-  </footer> */}
+  </footer> 
     </div>   
   )
 }

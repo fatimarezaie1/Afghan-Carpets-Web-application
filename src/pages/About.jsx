@@ -15,7 +15,7 @@ export default function About(){
                 <div id="accordion" className="p-3">
                     <div className="card">
                         <div className="card-header">
-                            <Link className='btn' data-bs-toggle='collapse' to='#collapseOne'>Collapse Group Item #1</Link>
+                            <Link className='btn' data-bs-toggle='collapse' to='#collapseOne'>carpets </Link>
                         </div>
                         <div className="collapse show" id="collapseOne" data-bs-parent='#accordion'>
                             <div className="card-body">
@@ -30,7 +30,7 @@ export default function About(){
 
                     <div className="card">
                         <div className="card-header">
-                            <Link className='collapsed btn' data-bs-toggle='collapse' to='#collapseTwo'>Collapse Group Item #2</Link>
+                            <Link className='collapsed btn' data-bs-toggle='collapse' to='#collapseTwo'>By hands</Link>
                         </div>
                         <div className="collapse" id="collapseTwo" data-bs-parent='#accordion'>
                             <div className="card-body">
@@ -45,7 +45,7 @@ export default function About(){
 
                     <div className="card">
                         <div className="card-header">
-                            <Link className='collapsed btn' data-bs-toggle='collapse' to='#collapseThree'>Collapse Group Item #3</Link>
+                            <Link className='collapsed btn' data-bs-toggle='collapse' to='#collapseThree'>By machins</Link>
                         </div>
                         <div className="collapse" id="collapseThree" data-bs-parent='#accordion'>
                             <div className="card-body">
@@ -59,6 +59,20 @@ export default function About(){
                     
                 </div>
             </div>
+
+            <div className="container-fluid ">
+            <p className="h3 text-center">Video provides a powerful way to help you prove your point</p>
+            <div className="card container" >
+                    <img src={'c.jpeg'} className="card-img-top container" alt="top" style={{width:'100%'}}/>
+                <div className="card-img-overlay d-flex flex-column container  p-5" id="card-description" style={{height:'300px',backgroundColor:'white',opacity:'0.8'}}>
+                    <h4 className="card-title">Afghan Carpet</h4>
+                    <p className="card-text">Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
+                    To make your document look professionally.
+                    </p>
+                    <Link to='/services' className='btn btn-primary'>SEE OUR SERVIECES</Link>
+                </div>
+            </div>
+        </div>
             
         </div>
     )
